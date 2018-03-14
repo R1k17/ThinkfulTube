@@ -22,6 +22,7 @@ function renderResults(result){
   let template = $(resultsTemplate);
   template.find('.js_image_link').attr('href', `https://www.youtube.com/watch?v=${result.id.videoId}`);
   template.find('.js_image').attr('src', result.snippet.thumbnails.medium.url);
+  template.find('.js_image').attr('alt', result.snippet.title)
   template.find('.resultTitle').text(result.snippet.title);
   return template;
 }
