@@ -15,8 +15,10 @@ AIzaSyBac9cFNnhK6shArenZzYFA742-SBGSVM0
 
 ==== a11y Fixes ====
 ====================
+>>>DONE<<<
 first use aXe and tackle the violations reports first
 
+>>>DONE<<< 
 sighted keyboard user:
     - use keyboard alone to access core information in the app
         > use and submit the form with the keyboard

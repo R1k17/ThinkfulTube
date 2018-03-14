@@ -29,10 +29,12 @@ function renderResults(result){
 
 // Step 4 - displaying the data
 function displayData(data){
+  let searchCount = `<p>About ${data.pageInfo.totalResults} results</p>`;
   let results = data.items.map(function(item){ 
       return renderResults(item);
   });
   $('#searchContainer').html(results);
+  $('#searchResults').html(searchCount)
 };
 
 // Step 5 - watch for submitting
