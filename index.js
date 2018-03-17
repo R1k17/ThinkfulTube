@@ -7,7 +7,7 @@ function getApiData(searchTerm, callback){
       part: 'snippet',
       q: searchTerm,     
       type: 'video',
-      key: 'AIzaSyBac9cFNnhK6shArenZzYFA742-SBGSVM0'
+      key: '' //add your API key here
     }
     $.getJSON(searchUrl, query, callback);
   }
