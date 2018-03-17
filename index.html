@@ -15,10 +15,10 @@
     </header>
     <main role = "main">
         <form action="#" class="searchForm">
-            <input id = "searchTerm" type="text" aria-label="search">
+            <input id = "searchTerm" type="text" aria-label="search" placeholder="search">
             <button type="submit" id='searchButton' aria-label="search-button"><span class="glyphicon glyphicon-search"></span></button>
         </form>
-        <div id="searchResults"></div>
+        <div id="searchResults" aria-live="assertive" hidden></div>
         <div id="searchContainer"></div>
     </main>
 </body>

@@ -38,3 +38,6 @@ screen reader user:
 Questions
 
 When to use ${} and $() ? 
+
+Solution repl
+https://repl.it/@jeffbernst/Thinkful-Tube-a11y-refactor
